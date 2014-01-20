@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="assets/main.css">
+
+  <script src="lib/crafty.js"></script>
+  <script src="lib/lodash.js"></script>
+</head>
+<body>
+  <h2>Crafty's Adventure</h2>
+
+  <p>Help Crafty visit her friends in each village.</p>
+
+  <p class="controls">Controls: Use W, A, S, and D or arrow keys to move around.</p>
+
+  <div id="cr-stage"></div>
+
+  <p class="bottom">Created for the "Introduction to Crafty Game Engine" tutorial on <a href="http://buildnewgames.com" target="_blank">Build New Games</a>.
+
+  <script src="src/game.js"></script>
+  <script src="src/components.js"></script>
+  <script src="src/scenes.js"></script>
+  <script>
+    console.log('_.bind', _.bind);
+    document.addEventListener('DOMContentLoaded', function(event) {
+      window.addEventListener('load', BQ.Game.start.call(BQ.Game));  
+    });    
+  </script>
+</body>
+</html>

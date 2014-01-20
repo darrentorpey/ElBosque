@@ -1,0 +1,23 @@
+body {
+  background: black;
+  text-align: center;
+  color: #DDD;
+  font-family: Arial;
+  font-size: 26px;
+}
+
+.controls {
+  color: #BBB;
+}
+
+#cr-stage { margin: 20px auto 0; }
+
+.bottom {
+  font-size: 12px;
+  color: #888;
+  margin-top: 50px;
+}
+
+.bottom a {
+  color: #AAA;
+}
